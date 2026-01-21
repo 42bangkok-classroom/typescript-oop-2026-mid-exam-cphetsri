@@ -2,7 +2,7 @@
 let input = Number(process.argv[2]);
 
 if (Number.isNaN(input) || input <= 0) {
-    process.exit(1);
+    process.exitCode;
 
 }
 
@@ -19,7 +19,5 @@ for (let i = 1; i <= input; i++) {
     } else if (!(i % 3 === 0 || i % 5 === 0)) {
         console.log(`${i}`);
 
-    } else {
-        process.exit();
     }
 }
