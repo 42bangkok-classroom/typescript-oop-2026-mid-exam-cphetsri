@@ -2,7 +2,7 @@
 let input = Number(process.argv[2]);
 
 if (Number.isNaN(input) || input <= 0) {
-    process.exit();
+    process.exit(0);
 
 }
 
