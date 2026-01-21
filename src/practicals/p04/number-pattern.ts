@@ -5,7 +5,7 @@ if (Number.isNaN(input) || input <= 0){
 
 }
 let out = '';
-for (let i = input; i > 0; i++){
+for (let i = input; i > 0; i--){
     for (let j = i; j > 0; j--){
         out += j
     }
