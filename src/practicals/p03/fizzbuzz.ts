@@ -1,5 +1,5 @@
 // Write your code below
-let input = process.argv[2];
+let input = Number(process.argv[2]);
 
 if (Number.isNaN(input) || input <= 0) {
     process.exit();
